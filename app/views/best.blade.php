@@ -43,6 +43,9 @@
 					</div>
 				</div>
 			</section>
+			<p>There are three sections on this page, each a handy tool for web developers. The XKCD Password Generator will generate easy to remember, but hard to guess passwords 
+			(as per the comic which can be seen on the page). The Lorem Ipsum Generator will generate latin filler text that can be used on your website. And finally, the User 
+			Generator will give you dummy user data that can be used for web development. Enjoy!</p>
 		</header>
 	</article>		
 @stop
