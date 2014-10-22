@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('best', array('as' => 'best', 'uses' => 'HomeController@home'));
+Route::get('best', array('as' => 'best', 'uses' => 'bestController@home'));
 
 Route::get('user', array('as' => 'user', 'uses' => 'userController@home'));
 Route::post('user', array('uses' => 'userController@generateUser'));
