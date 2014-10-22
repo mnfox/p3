@@ -1,6 +1,6 @@
 <?php
 
-	class loremController extends BaseController 
+	class bestController extends BaseController 
 	{
 		public function home() 
 		{
