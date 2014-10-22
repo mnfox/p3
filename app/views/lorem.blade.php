@@ -27,6 +27,7 @@
 					<br /><br />
 					{{ Form::submit('Generate!') }}
 					{{ Form::close() }}
+					<br />
 					<?php echo $lorem ?>
 			</section>
 		</header>
