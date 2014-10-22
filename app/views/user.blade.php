@@ -23,6 +23,8 @@
 					<br /><br />
 					{{ Form::submit('Generate!') }}
 					{{ Form::close() }}
+					<br /><br />
+					<?php echo $user; ?>
 				</header>
 			</section>
 		</header>
