@@ -319,3 +319,8 @@
 			.image.featured img {
 				display: block;
 				width: 100%;
+			}
+
+.backbutton {
+	margin: 10px;
+}

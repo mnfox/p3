@@ -14,4 +14,9 @@ class BaseController extends Controller {
 			$this->layout = View::make($this->layout);
 		}
 	}
+
+	public function home()
+	{
+		
+	}
 }

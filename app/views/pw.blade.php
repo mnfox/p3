@@ -4,9 +4,19 @@
     XKCD Password Generator
 @stop
 
+@section('head')
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+@stop
+
 @section('content')
+	<div class="backbutton">
+		<a href="{{ URL::route('best') }}">
+			<i class="fa fa-arrow-circle-left fa-2x"></i> 
+		</a>
+	</div>
     <article id="main">
 		<header class="special container">
+			<i class="fa fa-lock fa-5x"></i>
 			<h2>XKCD Password Generator</h2>
 			<hr/>
 			<section class="wrapper style2 container special-alt">
