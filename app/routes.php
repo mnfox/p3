@@ -13,5 +13,16 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('best');
 });
+
+Route::get('user', array('as' => 'user', 'uses' => 'userController@home'));
+Route::post('user', array('uses' => 'userController@generateUser'));
+
+Route::get('lorem', array('as' => 'lorem', 'uses' => 'loremController@home'));
+Route::post('lorem', array('uses' => 'loremController@generateLorem'));
+
+Route::get('pw', array('as' => 'pw', 'uses' => 'pwController@home'));
+Route::post('pw', array('uses' => 'pwController@whichPW'));
+
+
