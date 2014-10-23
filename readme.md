@@ -1,3 +1,30 @@
+p3
+==
+
+CSCI E-15 Prac Three
+
+Live URL
+--
+http://p3.mnfox.me
+
+Demo
+--
+To be added soon!
+
+Description 
+--
+This is a collection of three useful tools for web developers. The XKCD Password Generator will generate easy to remember, but hard to guess passwords (as per the comic which can be seen on the page). The Lorem Ipsum Generator will generate latin filler text that can be used on your website. And finally, the User Generator will give you dummy user data that can be used for web development.
+
+Outside code
+--
+To build this I used the Skel framework (to ensure responsiveness, a grid design, and to save time when it comes to making things look pretty), FontAwesome (for icons, seen at the bottom for social media), and JQuery. I also used the Laravel framework, and utilised two excellent packages: one to aid in generating lorem ipsum, and the other to generate random users (both linked below).
+
+Skel: http://skeljs.org
+FontAwesome: http://fortawesome.github.io/Font-Awesome
+JQuery: http://jquery.com
+Lorem Ipsum Generator: https://packagist.org/packages/badcow/lorem-ipsum
+User Generator: https://packagist.org/packages/fzaninotto/faker
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
