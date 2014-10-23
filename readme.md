@@ -9,7 +9,7 @@ http://p3.mnfox.me
 
 Demo
 --
-To be added soon!
+http://screencast.com/t/jdacdqvE
 
 Description 
 --
